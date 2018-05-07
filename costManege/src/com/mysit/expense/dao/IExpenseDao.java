@@ -18,7 +18,7 @@ public interface IExpenseDao {
     List<AuditRecord> queryAuditRecordList(int expenseId);
 
     int updateAuditRecord(AuditRecord auditRecord);
-
+    //提交测试
     int updateExpense(AuditRecord auditRecord);
 
     /**
